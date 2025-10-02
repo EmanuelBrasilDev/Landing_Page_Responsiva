@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar customizada */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+
+/* Hero section */
+#hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x900/?technology') center/cover no-repeat;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Botão CTA */
+.btn-cta {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+}
+
+/* Seção de recursos */
+#features .card {
+    transition: transform 0.3s ease;
+}
+
+#features .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Formulário de captura */
+#leadForm input, #leadForm button {
+    border-radius: 0;
+}
+
+#hero .carousel-item {
+    height: 100vh;
+    min-height: 400px;
+    position: relative;
+}
+
+#hero .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+#hero .carousel-caption {
+    background: rgba(0,0,0,0.5); /* sombra para melhor leitura do texto */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#hero .carousel-caption h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#hero .carousel-caption p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
